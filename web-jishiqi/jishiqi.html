@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>大笨猪and饲养员</title>
+<!--		<embed autostart="true" loop="-1" controls="ControlPanel" width="0" height="0" src="music/画.mp3">
+-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/css/noscript.css" /></noscript>
+		<script type="text/javascript">
+function tick() {
+var years,months,days,hours, minutes, seconds;
+var intYears,intMonths,intDays,intHours, intMinutes, intSeconds;
+var today;
+
+today = new Date(); //系统当前时间
+intYears = today.getFullYear(); //得到年份,getFullYear()比getYear()更普适
+intMonths = today.getMonth() + 1; //得到月份，要加1
+intDays = today.getDate(); //得到日期
+intHours = today.getHours(); //得到小时 
+intMinutes = today.getMinutes(); //得到分钟
+intSeconds = today.getSeconds(); //得到秒钟
+
+var months=[31,28,31,30,31,30,31,31,30,31,30,31];
+var n=0;
+if(intMonths > 1){
+    for(var i=4;i < intMonths;i++){
+    n=n+months[i];
+   }
+  n=n+intDays+1;
+}else{
+    n=intDays-28;
+}
+
+var daynum=(intYears-2018)*365+n;
+
+
+timeString =daynum+"天"+intHours+"小时"+intMinutes+"分"+intSeconds+"秒";
+Clock.innerHTML = timeString;
+window.setTimeout("tick();", 1000);
+}
+window.onload = tick;
+</script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+
+
+								<h1>饲养员and大笨猪</h1>
+								<h1>已经在一起</h1>
+								<h1 id="Clock"></h1>
+								<p>天气会变凉，树叶会脱落  <br/>一年又一年的过去，也不可能再是昔日的景象<br/>但我愿意做那个你世界里的旧人，从始至终 旧 且唯一</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="https://love.ivesgo.fun/">返回主页</a></li>
+								<li><a href="https://love.ivesgo.fun/index.php/timeline/">时间轴</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+						            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">&copy;2019年8月7日情人节</p>
+            </footer>
+			</div>
+		
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/skel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/util.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/bmobSocketIo.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/web-jishiqi/assets/js/bmob.js"></script>
+        <script type="text/javascript">
+  </script>
+
+
+
+	</body>
+</html>

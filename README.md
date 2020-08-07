@@ -35,7 +35,7 @@ CDN
 
 修改footer
 <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/fujia/JS/shubiao.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/JS/shubiao.js"></script>
 
 改sukura-app.js 
 autoplay=1

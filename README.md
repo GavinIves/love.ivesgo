@@ -33,10 +33,19 @@ CDN
 
 静态https 0.05元/万次	套餐 1000万次/年 36元	>60万次/月 换套餐
 
+
+
 修改footer
+
+```
 <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GavinIves/love.ivesgo@master/JS/shubiao.js"></script>
+```
 
 修改sukura-app.js 
+
+```
 autoplay=1
 aplayers[f].lrc.hide ->show
+```
+
